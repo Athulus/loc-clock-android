@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="@string/default_home_value"
+        android:inputType="textPostalAddress"
+        android:key="home"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Home location" />
+    <EditTextPreference
+        android:defaultValue="@string/default_work_value"
+        android:key="work"
+        android:inputType="textPostalAddress"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Work Location" />
+</PreferenceScreen>
